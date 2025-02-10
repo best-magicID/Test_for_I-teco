@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_for_I-teco", "Test_for_I-teco\Test_for_I-teco.csproj", "{3292CFAB-3C40-4B61-B2B5-355381B79235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		App_for_testing_1.8|Any CPU = App_for_testing_1.8|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3292CFAB-3C40-4B61-B2B5-355381B79235}.App_for_testing_1.8|Any CPU.ActiveCfg = App_for_testing_1.8|Any CPU
+		{3292CFAB-3C40-4B61-B2B5-355381B79235}.App_for_testing_1.8|Any CPU.Build.0 = App_for_testing_1.8|Any CPU
+		{3292CFAB-3C40-4B61-B2B5-355381B79235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3292CFAB-3C40-4B61-B2B5-355381B79235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3292CFAB-3C40-4B61-B2B5-355381B79235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3292CFAB-3C40-4B61-B2B5-355381B79235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE5B817E-CB7D-4EA5-996E-6CE193E207A9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+Test_for_i-teco
+
+Программа для тестирования
+
+Права:
+Яндекс.Диск REST API
+Запись в любом месте на Диске
+
+Чтение всего Диска
+
+Доступ к информации о Диске
+
+Доступ к папке приложения на Диске
+
+ID: 56920f8a61b746f3b8cf1bb435db29f4
+Пароль: 8336d705e37b422b9edbba94ca51d761
+Callback URL: https://oauth.yandex.ru/verification_code
+Время жизни токена: Не менее, чем 1 год
+Дата создания: 07.07.2022
+
+
+ссылка на видео
+https://www.youtube.com/watch?v=YQVeVaIgMwg
+
+ссылка на сайт для получения токена
+https://oauth.yandex.ru/client/new
+
+документация
+нужная для создания ссылки
+https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html
+
+https://yandex.ru/dev/id/doc/dg/oauth/reference/desktop-client.html
+
+URL для запроса токена
+Приложение должно направить пользователя на Яндекс.OAuth по следующему адресу:
+
+https://oauth.yandex.ru/authorize?
+   response_type=token
+ & client_id=<идентификатор приложения>
+[& device_id=<идентификатор устройства>]
+[& device_name=<имя устройства>]
+[& redirect_uri=<адрес перенаправления>]
+[& login_hint=<имя пользователя или электронный адрес>]
+[& scope=<запрашиваемые необходимые права>]
+[& optional_scope=<запрашиваемые опциональные права>]
+[& force_confirm=yes]
+[& state=<произвольная строка>]
+[& display=popup]
+
+
+Полученный URL
+https://oauth.yandex.ru/authorize?response_type=token&client_id=56920f8a61b746f3b8cf1bb435db29f4
+
+Полученный токен
+https://oauth.yandex.ru/verification_code#access_token=AQAAAAA21AM2AAgLWLS8bkNUTEYUhH5yULFY_wc&token_type=bearer&expires_in=31535727
+
+AQAAAAA21AM2AAgLWLS8bkNUTEYUhH5yULFY_wc
